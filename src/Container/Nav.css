@@ -1,9 +1,0 @@
-/* Create two columns/boxes that floats next to each other */
-nav {
-  /* float: left; */
-  display: flex;
-  justify-content: space-between;
-  height: 30px; /* only for demonstration, should be removed */
-  background: #ccc;
-  padding: 20px;
-}
