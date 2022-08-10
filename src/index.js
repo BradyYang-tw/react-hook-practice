@@ -3,22 +3,20 @@ import ReactDOM from 'react-dom/client';
 import {
   BrowserRouter,
   Routes,
-  Route,
-  Outlet
+  Route
 } from "react-router-dom";
 import './index.css';
 import App from './App';
 import Home from "./Home"
 import AddPhone from './AddPhone'
 import SearchPhone from './SearchPhone'
-import Section from './Container/Section'
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
     <Routes>
-      <Route path="/" element={<App/>}>
+      <Route path="/react-hook-practice" element={<App/>}>
         <Route index element={<Home />} />
         <Route path='addphone' element={<AddPhone />} />
         <Route path='searchphone' element={<SearchPhone />} />
