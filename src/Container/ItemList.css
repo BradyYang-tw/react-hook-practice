@@ -1,0 +1,28 @@
+ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  color: inherit; /* 移除超連結顏色 */
+  text-decoration: none; /* 移除超連結底線 */
+  list-style: none; /* 移除項目符號 */
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-right: 10px;
+}
+
+li a {
+  display: block;
+  color: white; /* 移除超連結顏色 */
+  font-size: 1.2rem;
+  text-decoration: none; /* 移除超連結底線 */
+  /* padding: 10px; */
+}
+
+ul li:hover {
+  background-color: black;
+  color: white;
+  padding: 0 20px;
+}
